@@ -2,7 +2,24 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  width: 1440px;
+  position:;
+  height: 1440px;
+  left: 370px;
+  top: -1169px;
+  box-sizing:;
+  display: ;
+  align-items: ;
+  padding: ;
+  flex-direction: ;
+  gap: ; 
+  border-radius: ; 
+  box-shadow order: ;
+  flex-grow: ; 
+  border-bottom: ;
 }
+
+
 /* header */
 .list {
   text-decoration: none;
@@ -30,7 +47,7 @@ body {
 }
 
 .navigation {
-  color: #434455;
+  color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -40,14 +57,25 @@ body {
   text-decoration: none;
 }
 
-.contacts {
+.navigation:hover,
+.navigation:focus {
+  color: #404bbf;
+}
+
+.address {
   color: #434455;
+  font-style:normal;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
+}
+
+.address:hover,
+.address:focus {
+  color: #404bbf;
 }
 
 /* main section 1 */
