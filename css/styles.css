@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /* header */
@@ -10,24 +10,21 @@ body {
   text-decoration: none;
   list-style-type: none;
 }
-
 .logo-web {
-  color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
   font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  color: #4d5ae5;
 }
 
 .logo-studio {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
+ 
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -57,8 +54,6 @@ body {
 
 /* main section 1 */
 
-
-
 .heading {
   color: #ffffff;
   text-align: center;
@@ -73,17 +68,17 @@ body {
 
 .button {
   color: #ffffff;
-  background-color: #4D5AE5;
-  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
-  
+
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em
+  letter-spacing: 0.04em;
 }
 
 /*  content */
@@ -121,39 +116,23 @@ body {
 /* footer */
 
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 
-.logo-web-footer {
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
+
 
 .logo-studio-footer {
   color: #f4f4fd;
-  font-family: Raleway;
+  line-height: 1.17;
   font-size: 18px;
-  font-style: normal;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
   font-weight: 700;
-  line-height: 116.667%;
-
-  letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
 .text-footer {
   color: #f4f4fd;
-
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
