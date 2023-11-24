@@ -2,41 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
-  position: ...;
-  /* вказати потрібні значення */
-  width: ...;
-  /* вказати потрібні значення */
-  height: ...;
-  /* вказати потрібні значення */
-  left: ...;
-  /* вказати потрібні значення */
-  top: ...;
-  /* вказати потрібні значення */
-  box-sizing: ...;
-  /* вказати потрібні значення */
-  display: ...;
-  /* вказати потрібні значення */
-  align-items: ...;
-  /* вказати потрібні значення */
-  padding: ...;
-  /* вказати потрібні значення */
-  flex-direction: ...;
-  /* вказати потрібні значення */
-  gap: ...;
-  /* вказати потрібні значення */
-  border-radius: ...;
-  /* вказати потрібні значення */
-  box-shadow: ...;
-  /* вказати потрібні значення */
-  order: ...;
-  /* вказати потрібні значення */
-  flex-grow: ...;
-  /* вказати потрібні значення */
-  border-bottom: ...;
-  /* вказати потрібні значення */
 }
 /* header */
-
 .list {
   text-decoration: none;
   list-style-type: none;
@@ -161,8 +128,7 @@ body {
   text-transform: uppercase;
 }
 
-.text-footer {
-  color: #F4F4FD;
+.text-footer {color: #F4F4FD;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
