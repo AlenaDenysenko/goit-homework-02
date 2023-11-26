@@ -143,9 +143,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.list-team {
-  background-color: #ffffff;
-}
+
 .team-names {
   color: #2e2f42;
   font-size: 20px;
@@ -153,7 +151,6 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
 }
 
 .team-text {
