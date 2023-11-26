@@ -9,6 +9,7 @@ body {
 .list {
   text-decoration: none;
   list-style-type: none;
+  font-style: normal;
 }
 .logo-web {
   font-weight: 700;
@@ -153,7 +154,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.team-text {
+.paragraph {
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -193,6 +194,7 @@ body {
 }
 
 .logo-studio-footer {
+  font-style: normal;
   color: #f4f4fd;
   font-style: normal;
   line-height: 1.17;
