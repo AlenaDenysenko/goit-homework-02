@@ -1,17 +1,16 @@
-body{
+body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
   font-style: normal;
 }
 
-
 /* header */
-.list{
+.list {
   text-decoration: none;
   list-style-type: none;
 }
-.logo-web{
+.logo-web {
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -22,7 +21,7 @@ body{
   font-style: normal;
 }
 
-.logo-studio{
+.logo-studio {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
@@ -33,7 +32,7 @@ body{
   text-transform: uppercase;
 }
 
-.navigation{
+.navigation {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
@@ -45,21 +44,21 @@ body{
 }
 
 .navigation:hover,
-.navigation:focus{
+.navigation:focus {
   color: #404bbf;
 }
 .address {
   font-style: normal;
 }
 
-.address-contacts{
- color: #434455;
- font-style: normal;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
- font-family: Roboto;
- font-weight: 400; 
+.address-contacts {
+  color: #434455;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-family: Roboto;
+  font-weight: 400;
 }
 
 .address-contacts:hover,
@@ -69,11 +68,11 @@ body{
 
 /* main section 1 */
 
-.heading{
+.heading {
   background-color: #2e2f42;
 }
 
-.main-heading{
+.main-heading {
   color: #ffffff;
   text-align: center;
   font-family: Roboto;
@@ -85,7 +84,7 @@ body{
   background-color: #2e2f42;
 }
 
-.button{
+.button {
   color: #ffffff;
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
@@ -94,12 +93,13 @@ body{
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.button:hover, .button:focus {
-  background-color: #404BBF;
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 
-/*  друга секція */
-.advantages{
+/*  main section 2 */
+.advantages {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
@@ -108,10 +108,9 @@ body{
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  
 }
 
-.advantages-heading{
+.advantages-heading {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
@@ -121,7 +120,7 @@ body{
   letter-spacing: 0.4px;
 }
 
-.paragraph{
+.paragraph {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
@@ -131,58 +130,72 @@ body{
   letter-spacing: 0.32px;
 }
 
-/*третя секція*/
-.team-section{
-  background-color: #F4F4FD;
+/*main section 3*/
+.team-section {
+  background-color: #f4f4fd;
 }
 
-.team-heading{
+.team-heading {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-
 }
-.list-team{
-  background-color: #FFFFFF;
-
+.list-team {
+  background-color: #ffffff;
 }
-.team-names{
-    color: #2e2f42;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    background-color: #FFFFFF;
+.team-names {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 
-.team-text{
-    color: #434455;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.team-text {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-/* четверта секція */
+/* main section 4 */
 
-.heading-portfolio
-
-
-
-
+.heading-portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.list-heading-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 /* footer */
 
-.footer{
-background-color: #2e2f42;
+.footer {
+  background-color: #2e2f42;
 }
 
-.logo-studio-footer{
+.logo-studio-footer {
   color: #f4f4fd;
   font-style: normal;
   line-height: 1.17;
@@ -194,7 +207,7 @@ background-color: #2e2f42;
 }
 
 .text-footer {
-  color: #F4F4FD;
+  color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
