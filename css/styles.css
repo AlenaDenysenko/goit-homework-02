@@ -19,7 +19,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  font-style: normal;
+  text-decoration: none;
 }
 
 .logo-studio {
@@ -37,7 +37,6 @@ body {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -54,7 +53,7 @@ body {
 
 .address-contacts {
   color: #434455;
-  font-style: normal;
+  text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -78,7 +77,6 @@ body {
   text-align: center;
   font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -104,7 +102,6 @@ body {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -115,7 +112,6 @@ body {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
@@ -125,7 +121,6 @@ body {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -134,6 +129,9 @@ body {
 /*main section 3*/
 .team-section {
   background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #ffffff;
 }
 
 .team-heading {
@@ -148,7 +146,6 @@ body {
 .team-names {
   color: #2e2f42;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -157,7 +154,6 @@ body {
 .paragraph-team {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -194,9 +190,7 @@ body {
 }
 
 .logo-studio-footer {
-  font-style: normal;
   color: #f4f4fd;
-  font-style: normal;
   line-height: 1.17;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
