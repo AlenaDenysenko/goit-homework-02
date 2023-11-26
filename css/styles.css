@@ -2,23 +2,7 @@ body{
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
-  height: 1440px;
-  left: 370px;
-  top: -1169px;
   font-style: normal;
-  /*
-  box-sizing:;
-  display: ;
-  align-items: ;
-  padding: ;
-  flex-direction: ;
-  gap: ; 
-  border-radius: ; 
-  box-shadow order: ;
-  flex-grow: ; 
-  border-bottom: ;
-  position: ; */
 }
 
 
@@ -64,8 +48,11 @@ body{
 .navigation:focus{
   color: #404bbf;
 }
+.address {
+  font-style: normal;
+}
 
-.address{
+.address-contacts{
  color: #434455;
  font-style: normal;
  font-size: 16px;
@@ -75,8 +62,8 @@ body{
  font-weight: 400; 
 }
 
-.address:hover,
-.address:focus {
+.address-contacts:hover,
+.address-contacts:focus {
   color: #404bbf;
 }
 
@@ -86,7 +73,7 @@ body{
   background-color: #2e2f42;
 }
 
-.h1{
+.h_1{
   color: #ffffff;
   text-align: center;
   font-family: Roboto;
