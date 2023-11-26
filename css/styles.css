@@ -73,7 +73,7 @@ body{
   background-color: #2e2f42;
 }
 
-.h_1{
+.main-heading{
   color: #ffffff;
   text-align: center;
   font-family: Roboto;
@@ -104,7 +104,7 @@ body{
 }
 
 /*  друга секція */
-.advantages-h2{
+.advantages{
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
@@ -116,7 +116,7 @@ body{
   
 }
 
-.advantages-h3{
+.advantages-heading{
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
@@ -137,7 +137,7 @@ body{
 }
 
 /*третя секція*/
-.team-h2{
+.team-heading{
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -146,11 +146,11 @@ body{
   color: #2e2f42;
 
 }
-.list-h2{
+.list-team{
   background-color: #FFFFFF;
 
 }
-.team-h3{
+.team-names{
     color: #2e2f42;
     font-size: 20px;
     font-style: normal;
@@ -169,8 +169,9 @@ body{
     letter-spacing: 0.02em;
 }
 
+/* четверта секція */
 
-
+.heading-portfolio
 
 
 
