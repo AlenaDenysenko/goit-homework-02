@@ -121,7 +121,7 @@ body{
   letter-spacing: 0.4px;
 }
 
-.advantages-text{
+.paragraph{
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
@@ -156,6 +156,7 @@ body{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    background-color: #FFFFFF;
 }
 
 .team-text{
@@ -178,11 +179,11 @@ body{
 /* footer */
 
 .footer{
-  background-color: #2e2f42;
+background-color: #2e2f42;
 }
 
 .logo-studio-footer{
-  color: #D9D9D9;
+  color: #f4f4fd;
   font-style: normal;
   line-height: 1.17;
   font-size: 18px;
