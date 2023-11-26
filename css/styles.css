@@ -1,4 +1,4 @@
-body {
+body{
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -6,6 +6,7 @@ body {
   height: 1440px;
   left: 370px;
   top: -1169px;
+  font-style: normal;
   /*
   box-sizing:;
   display: ;
@@ -22,11 +23,11 @@ body {
 
 
 /* header */
-.list {
+.list{
   text-decoration: none;
   list-style-type: none;
 }
-.logo-web {
+.logo-web{
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -34,20 +35,21 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-style: normal;
 }
 
-.logo-studio {
+.logo-studio{
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
- 
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
-.navigation {
+.navigation{
   color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
@@ -59,15 +61,15 @@ body {
 }
 
 .navigation:hover,
-.navigation:focus {
+.navigation:focus{
   color: #404bbf;
 }
 
-.address {
-  color: #434455;
-  font-style:normal;
+.address{
+ color: #434455;
+ font-style: normal;
  font-size: 16px;
- line-height: 15;
+ line-height: 1.5;
  letter-spacing: 0.02em;
  font-family: Roboto;
  font-weight: 400; 
@@ -80,11 +82,11 @@ body {
 
 /* main section 1 */
 
-.header {
+.heading{
   background-color: #2e2f42;
 }
 
-.h1 {
+.h1{
   color: #ffffff;
   text-align: center;
   font-family: Roboto;
@@ -96,7 +98,7 @@ body {
   background-color: #2e2f42;
 }
 
-.button {
+.button{
   color: #ffffff;
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
@@ -124,9 +126,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  
 }
 
-.advantages-h3 {
+.advantages-h3{
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
@@ -136,7 +139,7 @@ body {
   letter-spacing: 0.4px;
 }
 
-.advantages-text {
+.advantages-text{
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
@@ -147,31 +150,36 @@ body {
 }
 
 /*третя секція*/
-.team-h2 {
+.team-h2{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 
 }
-.list-h2 {
+.list-h2{
   background-color: #FFFFFF;
 
 }
 .team-h3{
     color: #2e2f42;
-    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 120%;
-    letter-spacing: 0.4px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .team-text{
   color: #434455;
-    font-family: Roboto;
+  
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
@@ -190,6 +198,7 @@ body {
 
 .logo-studio-footer {
   color: #f4f4fd;
+  font-style: normal;
   line-height: 1.17;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
